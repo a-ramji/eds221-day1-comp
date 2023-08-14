@@ -40,9 +40,9 @@ toolik_mean_temp_jitter <- ggplot(data = toolik_weather, aes(x = month, y = dail
        x = "Month",
        y = "Daily mean air temperatures (Celsius)")
 
-# toolik_mean_temp_jitter
+toolik_mean_temp_jitter
 
-ggsave(plot = toolik_mean_temp_jitter, here::here("figs", "toolik_mean_temp_jitter.jpg"), height = 5, width = 6)
+# ggsave(plot = toolik_mean_temp_jitter, here::here("figs", "toolik_mean_temp_jitter.jpg"), height = 5, width = 6)
 ```
 
 ## Basic exploration
