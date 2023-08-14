@@ -1,0 +1,15 @@
+---
+title: "eds-221-day1-comp2-notes"
+format: html
+editor: visual
+---
+
+## Notes
+
+we'll be using janitor clean names right out of the gate -- put everything in lower snake case
+
+using here() function:
+
+toolik_weather \<- read_csv(here::here("data", "data-raw", "toolik_weather.csv"))
+
+\^ starts in working directory (can enter here() in console), "file", "next file", "document"
