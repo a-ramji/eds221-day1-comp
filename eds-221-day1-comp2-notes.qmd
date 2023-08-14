@@ -8,8 +8,18 @@ editor: visual
 
 we'll be using janitor clean names right out of the gate -- put everything in lower snake case
 
+janitor::clean_names()
+
 using here() function:
 
 toolik_weather \<- read_csv(here::here("data", "data-raw", "toolik_weather.csv"))
 
 \^ starts in working directory (can enter here() in console), "file", "next file", "document"
+
+-   use geom_jitter() to treat months as a non quantitative value -- don't want a line of diff points, want it jittered and not layered
+
+?read_csv in console --\> na = c("", "NA")
+
+we did read_csv(here::here("data", "data-raw", "toolik_weather.csv"), na = "#N/A")
+
+?ggsave()
